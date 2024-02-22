@@ -1,0 +1,8 @@
+:root {
+  --color-text: #F4F4F5;
+  --color-body-background: #18181B;
+  --color-background-container: #000000;
+
+  /* fonts */
+  --default-roboto: "Roboto"
+}

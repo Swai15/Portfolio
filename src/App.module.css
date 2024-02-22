@@ -1,0 +1,16 @@
+@import "./vars.css";
+
+
+.AppContainer {
+  background-color: var(--color-background-container);
+  height: 10000px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.app {
+  height: 100%;
+  width: 90%;
+  background: var(--color-body-background);
+}

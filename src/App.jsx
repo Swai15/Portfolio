@@ -1,9 +1,15 @@
 import { useState } from "react";
-
-import "./App.css";
+import styles from "./App.module.css";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <>Project setup</>;
+  return (
+    <div className={styles.AppContainer}>
+      <div className={styles.app}>
+        <Navbar />
+      </div>
+    </div>
+  );
 }
 
 export default App;
