@@ -1,8 +1,26 @@
 :root {
+  --color-title: #ffffff;
   --color-text: #F4F4F5;
   --color-body-background: #18181B;
   --color-background-container: #000000;
 
   /* fonts */
   --default-roboto: "Roboto"
+
+
+
+}
+
+/* .dark {
+  --color-title: #27272a;
+  --color-text: #797980;
+  --color-body-background: #ffffff;
+  --color-background-container: #fafafa;
+} */
+
+[data-theme='light'] {
+  --color-title: #27272a;
+  --color-text: #797980;
+  --color-body-background: #ffffff;
+  --color-background-container: #fafafa;
 }
