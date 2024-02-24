@@ -10,26 +10,44 @@
   transition: transform 0.3s ease-in-out;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 
 }
 
+.profileImage {
+  margin-left: 30px;
+}
+
+.themeIcon {
+  margin-right: 30px;
+  border: var(--navbar-links-border);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 35px;
+}
+
 .workingImage {
-  /* border: 1px solid white; */
   cursor: pointer;
   height: 60px;
-  /* width: 50px; */
 }
 
 .moonImage {
   cursor: pointer;
-  height: 40px;
+  height: 25px;
+}
+
+.sunImage {
+  cursor: pointer;
+  height: 30px;
 }
 
 .links {
   color: var(--color-text);
-  background-color: #242429;
+  background-color: var(--navbar-background-links);
   box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   padding: 8px;
@@ -37,6 +55,10 @@
   list-style-type: none;
   justify-content: space-evenly;
   width: 200px;
+}
+
+.link {
+  cursor: pointer;
 }
 
 .navbarVisible {

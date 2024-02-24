@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import { getAssetUrl } from "../../utils/ ImageUrl";
 
-const Navbar = () => {
+const Navbar = ({ switchTheme, theme }) => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
 
@@ -36,13 +36,9 @@ const Navbar = () => {
           <li className={styles.link}>Experience</li>
         </ul>
 
-        <div onClick={toggleDarkMode}>
-          <img className={styles.moonImage} src="./Icons/moon.png" alt="" />
+        <div className={styles.themeIcon} onClick={() => switchTheme()}>
+          {theme === "light" ? <img className={styles.sunImage} src="./Icons/sun.png" alt="" /> : <img className={styles.moonImage} src="./Icons/moon.png" alt="" />}
         </div>
-
-        {/* <div>
-          <img className={styles.moonImage} src="./Icons/sun.png" alt="" />
-        </div> */}
       </nav>
     </div>
   );

@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "./App.module.css";
 import Navbar from "./components/Navbar/Navbar";
 import useLocalStorage from "use-local-storage";
+import { Overview } from "./components/IntroSection/Overview";
 
 function App() {
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -15,8 +16,8 @@ function App() {
   return (
     <div className={styles.AppContainer} data-theme={theme}>
       <div className={styles.app}>
-        <Navbar />
-        <button onClick={switchTheme}>Switch to {theme === "light" ? "dark" : "light"} them</button>
+        <Navbar switchTheme={switchTheme} theme={theme} />
+        <Overview theme={theme} />
       </div>
     </div>
   );

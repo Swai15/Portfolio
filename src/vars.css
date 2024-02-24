@@ -1,26 +1,29 @@
 :root {
   --color-title: #ffffff;
-  --color-text: #F4F4F5;
+  --color-text: #a3a3a3;
   --color-body-background: #18181B;
   --color-background-container: #000000;
+  --color-background-container-bs: 0px 0px 1px rgb(230, 230, 230);
+  --navbar-background-links: #242429;
 
   /* fonts */
-  --default-roboto: "Roboto"
+  --default-roboto: "Roboto";
 
-
-
+  /* navbar */
+  --navbar-background-links: #292929;
+  --navbar-links-border: 1px solid rgb(71, 71, 71);
 }
 
-/* .dark {
-  --color-title: #27272a;
-  --color-text: #797980;
-  --color-body-background: #ffffff;
-  --color-background-container: #fafafa;
-} */
 
+/* Light mode */
 [data-theme='light'] {
   --color-title: #27272a;
-  --color-text: #797980;
-  --color-body-background: #ffffff;
-  --color-background-container: #fafafa;
+  --color-text: #575757;
+  --color-body-background: #faf9f9;
+  --color-background-container: #ffffff;
+  --color-background-container-bs: 0px 1px 0.5px rgb(17, 17, 17);
+
+  /* navbar */
+  --navbar-background-links: #f3f3f3;
+  --navbar-links-border: 1px solid rgb(199, 191, 191);
 }
