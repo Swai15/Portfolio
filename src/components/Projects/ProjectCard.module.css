@@ -1,0 +1,88 @@
+ @import "../../vars.css";
+
+
+ .container {
+   display: flex;
+   margin-bottom: 50px;
+   /* border: 1px solid wheat; */
+ }
+
+
+ .title {
+   color: var(--color-title);
+   margin-bottom: 15px;
+   display: flex;
+ }
+
+ .title:hover {
+   color: var(--skills-color);
+ }
+
+
+
+ .cursor {
+   cursor: pointer;
+   height: 34px;
+   display: flex;
+   align-items: center;
+ }
+
+ .cursor:hover .link {
+   margin-left: 5px;
+   transform: rotate(45deg)
+ }
+
+
+ .link {
+   height: 19px;
+   margin-left: 3px;
+   margin-top: 2px;
+   transition: 0.2s;
+
+   /* border: 1px solid black; */
+ }
+
+ .description {
+   color: var(--color-text);
+ }
+
+ .content {
+   margin-left: 20px;
+ }
+
+ .image {
+   height: 110px;
+   /* width: 300px; */
+
+ }
+
+ .image img {
+   /* height: 100%; */
+   margin-top: 5px;
+   width: 150px;
+   object-fit: cover;
+   border: 1px solid rgba(255, 255, 255, 0.082);
+ }
+
+ .container:hover .image img {
+   border: 1px solid rgba(255, 255, 255, 0.219);
+ }
+
+ .skills {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   margin-top: 10px;
+   /* border: 1px solid white; */
+ }
+
+ .skill {
+   color: var(--skills-color);
+
+   list-style-type: none;
+   /* border: 1px solid white; */
+   background: var(--skills-background);
+   padding: 5px 12px 5px 12px;
+   border-radius: 14px;
+   font-size: 15px;
+ }

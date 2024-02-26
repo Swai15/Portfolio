@@ -1,0 +1,28 @@
+@import "../../vars.css";
+
+
+.container {
+  margin-top: 30px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--color-title);
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  /* .container {
+     flex-direction: column-reverse;
+
+   } */
+
+  .title {
+    margin-left: 20px;
+  }
+
+}

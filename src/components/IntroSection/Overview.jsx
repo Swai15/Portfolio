@@ -16,11 +16,11 @@ export const Overview = ({ theme }) => {
       <div className={styles.links}>
         <div className={styles.link}>
           {theme === "light" ? (
-            <a href="https://github.com/Swai15">
+            <a href="https://github.com/Swai15" target="_blank">
               <img className={styles.github} src="./Icons/github-light.png" alt="" />
             </a>
           ) : (
-            <a href="https://github.com/Swai15">
+            <a href="https://github.com/Swai15" target="_blank">
               <img className={styles.github} src="./Icons/github-dark.png" alt="" />
             </a>
           )}
