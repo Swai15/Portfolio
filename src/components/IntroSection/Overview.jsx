@@ -5,7 +5,7 @@ export const Overview = ({ theme }) => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Swai.</h1>
+        <h1 className={styles.title}>Hi, I'm Placeholder.</h1>
         <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum nihil excepturi illum dicta omnis totam, qui fuga aut ex!</p>
         <p className={styles.description}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem repellendus expedita dolorem reprehenderit, recusandae consequuntur aliquam magnam eaque, culpa, rerum ex provident unde sunt quis similique commodi dolorum sapiente a minima

@@ -19,8 +19,16 @@
   {
     "title": "Devfeel",
     "imageSrc": "projects/project.png",
-    "description": "A blog application that focuses on the human side of technology",
+    "description": "A blog application that focuses on the human side of technology ",
     "skills": ["Django", "Javascript", "Css"],
+    "demo": "https://www.example.com",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Devfeel",
+    "imageSrc": "projects/project.png",
+    "description": "A blog application that focuses on the human side of technology An app to keep track of tasks with custom project folders and secure user account creationAn app to keep track of tasks with custom project folders and secure user account creation",
+    "skills": ["Django", "Javascript", "Css", "Cloudinary", "Postgres"],
     "demo": "https://www.example.com",
     "source": "https://www.github.com"
   }

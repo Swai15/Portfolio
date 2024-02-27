@@ -17,6 +17,16 @@
   --space-left: 20px;
 
   /* Projects */
+  --project-container-background: #2d2d332f;
+  --project-container-background-hover: #2d2d3356;
+  --project-box-shadow: 0px 0px 0px black;
+  --project-box-shadow-hover: 0px 0px 0px black;
+  --project-container-borderBottom: 1px solid rgba(253, 253, 253, 0.027);
+  --project-source-background: rgb(42, 49, 49);
+  --project-source-background-hover: rgb(58, 70, 70);
+  --project-image-border: 1px solid rgba(255, 255, 255, 0.219);
+
+  /* skills */
   --skills-background: rgb(42, 49, 49);
   --skills-color: rgba(128, 255, 244, 0.836);
 }
@@ -38,6 +48,18 @@
   --space-left: 20px;
 
   /* Projects */
+  --project-container-background: #ffffff2f;
+  --project-box-shadow: 0.1px 0.1px 1px black;
+  --project-box-shadow-hover: 0.4px 0.4px 3px black;
+  --project-container-background-hover: #ffffff;
+  --project-container-borderBottom: 1px solid rgba(63, 63, 63, 0.116);
+  --project-source-background: rgb(226, 226, 226);
+  --project-source-background-hover: rgb(207, 207, 207);
+  --project-image-border: 1px solid rgba(21, 77, 73, 0.836);
+
+
+  /* skills */
   --skills-background: rgb(157, 214, 214);
   --skills-color: rgba(21, 77, 73, 0.836);
+
 }

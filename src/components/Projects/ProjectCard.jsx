@@ -11,16 +11,22 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
       <div className={styles.content}>
         <div className={styles.title}>
           <h3 className={styles.cursor}>
-            {title} {theme === "light" ? <img className={styles.link} src="./Icons/link-light.png" alt="" /> : <img className={styles.link} src="./Icons/link-dark.png" alt="" />}
+            <p>{title}</p> {theme === "light" ? <img className={styles.link} src="./Icons/link-light.png" alt="" /> : <img className={styles.link} src="./Icons/link-dark.png" alt="" />}
           </h3>
+
+          <a className={styles.source} href="">
+            view source
+          </a>
         </div>
 
-        <p className={styles.description}>{description}</p>
-        <ul className={styles.skills}>
-          {skills.map((skill, id) => {
-            return <li className={styles.skill}>{skill}</li>;
-          })}
-        </ul>
+        <div className={styles.details}>
+          <p className={styles.description}>{description}</p>
+          <ul className={styles.skills}>
+            {skills.map((skill, id) => {
+              return <li className={styles.skill}>{skill}</li>;
+            })}
+          </ul>
+        </div>
       </div>
     </div>
   );

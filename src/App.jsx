@@ -18,8 +18,11 @@ function App() {
     <div className={styles.AppContainer} data-theme={theme}>
       <div className={styles.app}>
         <Navbar switchTheme={switchTheme} theme={theme} />
-        <Overview theme={theme} />
-        <Projects theme={theme} />
+
+        <div className={styles.content}>
+          <Overview theme={theme} />
+          <Projects theme={theme} />
+        </div>
       </div>
     </div>
   );

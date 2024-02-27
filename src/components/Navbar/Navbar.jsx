@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
-import { getAssetUrl } from "../../utils/ ImageUrl";
 
 const Navbar = ({ switchTheme, theme }) => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -11,6 +10,7 @@ const Navbar = ({ switchTheme, theme }) => {
       const currentScrollPos = window.scrollY;
       setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
       setPrevScrollPos(currentScrollPos);
+      console.log("Navbar visibility set to:", visible ? "visible" : "hidden");
     };
     window.addEventListener("scroll", handleScroll);
 

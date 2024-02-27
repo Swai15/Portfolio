@@ -3,8 +3,38 @@
 
  .container {
    display: flex;
-   margin-bottom: 50px;
-   /* border: 1px solid wheat; */
+   /* align-items: center; */
+   position: relative;
+   margin-bottom: 110px;
+   box-shadow: var(--project-box-shadow);
+   /* border: 1px solid rgb(255, 255, 255); */
+   width: 75vw;
+   height: 350px;
+   margin-left: auto;
+   margin-right: auto;
+   background: var(--project-container-background);
+
+ }
+
+ /* .container::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 50%;
+   height: 100%;
+   background: linear-gradient(to right, #ffffff00, #494444);
+   z-index: 3;
+ } */
+
+ .container:hover {
+   box-shadow: var(--project-box-shadow-hover);
+
+ }
+
+ .container:hover .image img {
+   border: var(--project-image-border);
+
  }
 
 
@@ -12,11 +42,34 @@
    color: var(--color-title);
    margin-bottom: 15px;
    display: flex;
+   /* border: 1px solid white; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+
  }
 
- .title:hover {
-   color: var(--skills-color);
+ .source {
+   text-decoration: none;
+   color: var(--color-text);
+   background: var(--project-source-background);
+
+   text-transform: capitalize;
+   font-size: 14px;
+   padding: 8px;
+   border-radius: 4px;
+   margin-right: 30px;
+   transition: 0.2s;
  }
+
+ .source:hover {
+   background: var(--project-source-background-hover);
+ }
+
+ /* .title:hover {
+   color: var(--skills-color);
+ } */
 
 
 
@@ -29,7 +82,11 @@
 
  .cursor:hover .link {
    margin-left: 5px;
-   transform: rotate(45deg)
+   transform: rotate(45deg);
+ }
+
+ .cursor:hover p {
+   color: var(--skills-color);
  }
 
 
@@ -51,28 +108,39 @@
  }
 
  .image {
-   height: 110px;
-   /* width: 300px; */
-
+   /* height: 0px; */
+   width: 36vw;
+   height: 23vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgb(77, 126, 133);
+   position: relative;
+   z-index: 2;
  }
+
 
  .image img {
-   /* height: 100%; */
-   margin-top: 5px;
-   width: 150px;
+   width: 35vw;
+   margin-left: 4rem;
+   transform: translateX(10%);
+   transform: translateY(10%);
    object-fit: cover;
-   border: 1px solid rgba(255, 255, 255, 0.082);
+   border: 1px solid rgba(255, 255, 255, 0.068);
  }
 
- .container:hover .image img {
-   border: 1px solid rgba(255, 255, 255, 0.219);
+ .content {
+   border: 1px solid white;
+   z-index: 3;
+   /* height: 300px; */
  }
 
  .skills {
    display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
    gap: 10px;
-   margin-top: 10px;
+   margin-top: 20px;
    /* border: 1px solid white; */
  }
 
@@ -86,3 +154,110 @@
    border-radius: 14px;
    font-size: 15px;
  }
+
+ /* 
+
+ @media screen and (max-width: 768px) {
+   .container {
+     flex-direction: column-reverse;
+     margin-left: 20px;
+     border-bottom: var(--project-container-borderBottom);
+     margin-bottom: 30px;
+     height: auto;
+
+   }
+
+   .image {
+     margin-top: 13px;
+     height: 160px;
+   }
+
+   .image img {
+     width: 200px;
+   }
+
+   .skills {
+     margin-top: 20px;
+   }
+
+   .content {
+     margin-left: 0px;
+   }
+
+ }
+
+
+ @media screen and (min-width: 768px) and (max-width: 1024px) {
+   .container {
+     padding-right: 30px;
+     padding-left: 30px;
+   }
+ }
+
+
+ @media screen and (min-width: 1025px) and (max-width: 1300px) {
+   .container {
+
+     background: var(--project-container-background);
+     border-radius: 7px;
+     width: 600px;
+     padding: 20px;
+     transition: 0.3s;
+     margin-bottom: 20px;
+     flex-direction: row;
+
+   }
+
+   .container:hover {
+     background: var(--project-container-background-hover);
+
+   }
+
+   .content {
+   }
+
+   .image {
+     margin-left: 10px;
+   }
+
+   .image img {
+     width: 150px;
+     margin-left: 0px;
+   }
+
+
+ }
+
+ @media screen and (min-width: 1300px) {
+   .container {
+
+     background: var(--project-container-background);
+     border-radius: 7px;
+
+     padding: 20px;
+     transition: 0.3s;
+     margin-bottom: 20px;
+
+   }
+
+   .container:hover {
+     background: var(--project-container-background-hover);
+
+   }
+
+   .content {
+   }
+
+   .source {
+     margin-right: 0px;
+   }
+
+   .image {
+     margin-left: 10px;
+   }
+
+   .image img {
+     width: 100px;
+     margin-left: 0px;
+   }
+ } */
