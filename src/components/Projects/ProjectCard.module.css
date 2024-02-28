@@ -5,27 +5,17 @@
    display: flex;
    /* align-items: center; */
    position: relative;
-   margin-bottom: 110px;
+   margin-bottom: 20%;
    box-shadow: var(--project-box-shadow);
    /* border: 1px solid rgb(255, 255, 255); */
-   width: 75vw;
-   height: 350px;
+   width: 100%;
+   /* height: 350px; */
    margin-left: auto;
    margin-right: auto;
-   background: var(--project-container-background);
+   /* background: var(--project-container-background); */
 
  }
 
- /* .container::before {
-   content: '';
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 50%;
-   height: 100%;
-   background: linear-gradient(to right, #ffffff00, #494444);
-   z-index: 3;
- } */
 
  .container:hover {
    box-shadow: var(--project-box-shadow-hover);
@@ -103,14 +93,21 @@
    color: var(--color-text);
  }
 
- .content {
+ /* .content {
    margin-left: 20px;
+ } */
+
+ .imageContainer {
+   /* border: 1px solid white; */
+   position: relative;
+   width: 70vw;
  }
 
  .image {
    /* height: 0px; */
-   width: 36vw;
-   height: 23vw;
+   position: absolute;
+   width: 100%;
+   height: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -121,18 +118,39 @@
 
 
  .image img {
-   width: 35vw;
-   margin-left: 4rem;
-   transform: translateX(10%);
-   transform: translateY(10%);
+   cursor: pointer;
+   width: 95%;
+   height: 100%;
+   margin-left: 7rem;
+   transform: translateX(15%);
+   transform: translateY(8%);
    object-fit: cover;
    border: 1px solid rgba(255, 255, 255, 0.068);
+   transition: 0.3s;
+ }
+
+ .image img:hover {
+   transform: translateY(9%);
+   margin-left: 8rem;
+ }
+
+ .contentContainer {
+   display: flex;
+   z-index: 3;
+   align-items: center;
+   /* width: 1005; */
+   /* border: 1px solid gainsboro; */
+   width: 40vw;
+
  }
 
  .content {
-   border: 1px solid white;
-   z-index: 3;
-   /* height: 300px; */
+   padding: 15px;
+   border-radius: 2px;
+   /* border: 1px solid wheat; */
+   margin: 0;
+   background: rgba(36, 36, 36, 0.527);
+
  }
 
  .skills {
@@ -154,6 +172,58 @@
    border-radius: 14px;
    font-size: 15px;
  }
+
+
+ @media screen and (max-width: 1024px) {
+   .container {
+     display: contents;
+     border: 1px solid whitesmoke;
+   }
+
+   .imageContainer {}
+
+   .contentContainer {
+     display: flex;
+     z-index: 3;
+     align-items: center;
+     /* width: 1005; */
+     /* border: 1px solid gainsboro; */
+     background-color: rgba(128, 128, 128, 0);
+     width: 65%;
+     margin-top: -15vh;
+     margin-left: 25vw;
+     margin-bottom: 20vh;
+     backdrop-filter: blur(5px);
+
+   }
+
+   .content {
+     /* padding: 15px;
+   border-radius: 2px; */
+     /* border: 1px solid wheat; */
+     /* height: 40vh; */
+     padding-bottom: 20px;
+   }
+
+
+ }
+
+ @media screen and (min-width: 1024px) {
+   .contentContainer {
+     font-size: 18px;
+   }
+
+   .title {
+     margin-bottom: 25px;
+   }
+
+   .description {
+     margin-bottom: 25px;
+   }
+
+
+ }
+
 
  /* 
 
@@ -228,7 +298,7 @@
 
  }
 
- @media screen and (min-width: 1300px) {
+ @media screen and (min-width: 1024px) {
    .container {
 
      background: var(--project-container-background);
