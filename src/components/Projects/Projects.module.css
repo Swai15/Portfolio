@@ -2,7 +2,7 @@
 
 
 .container {
-  margin-top: 30px;
+  margin-top: 20vh;
 }
 
 .projects {
@@ -14,13 +14,29 @@
 
 }
 
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
 .title {
   color: var(--color-title);
-  margin-bottom: 30px;
-  text-transform: uppercase;
-  font-size: 17px;
-  display: flex;
-  justify-content: center;
+  margin-bottom: 20px;
+  /* text-transform: uppercase; */
+  font-size: 28px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+
+
+.border {
+  border: 3px solid var(--project-imageContainer-background);
+  height: 0;
+  width: 80px;
+  margin-bottom: 15vh;
 }
 
 /*

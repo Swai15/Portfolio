@@ -11,6 +11,7 @@
 
   /* navbar */
   --navbar-background-links: #292929;
+  --navbar-links-bs: 1px 1px 3px 3px rgba(255, 255, 255, 0.082);
   --navbar-links-border: 1px solid rgb(71, 71, 71);
 
   /* margins */
@@ -45,8 +46,9 @@
   --color-background-container-bs: 0px 1px 0.5px rgba(17, 17, 17, 0.596);
 
   /* navbar */
-  --navbar-background-links: #f3f3f3;
-  --navbar-links-border: 1px solid rgb(199, 191, 191);
+  --navbar-background-links: #ffffff;
+  --navbar-links-bs: 1px 1px 1px 1px rgba(0, 0, 0, 0.075);
+  --navbar-links-border: 1px solid rgba(199, 191, 191, 0.418);
 
   /* margins */
   --space-left: 20px;
@@ -62,7 +64,7 @@
   --project-source-bs: 0.3px 2px 5px rgba(0, 0, 0, 0.623);
 
   --project-image-border: 1px solid rgba(21, 77, 73, 0.836);
-  --project-content-background: #f3f3f3d3;
+  --project-content-background: #f3f3f3f3;
   --project-imageContainer-background: #6c76ac;
 
 

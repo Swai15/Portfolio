@@ -7,9 +7,18 @@ export const Contact = ({ theme }) => {
       <h2 className={styles.title}>Contact Me!</h2>
       <div className={styles.border}></div>
       <div className={styles.links}>
-        <a href="mailto:swaisilvano5@gmail.com" className={styles.link}>
-          Swaisilvano5@gmail.com
-        </a>
+        <div>
+          {theme === "light" ? (
+            <a href="mailto:swaisilvano5@gmail.com" target="_blank">
+              <img className={styles.mail} src="./Icons/mail-light.png" alt="" />
+            </a>
+          ) : (
+            <a href="mailto:swaisilvano5@gmail.com" target="_blank">
+              <img className={styles.mail} src="./Icons/mail-dark.png" alt="" />
+            </a>
+          )}
+        </div>
+
         <div>
           {theme === "light" ? (
             <a href="https://github.com/Swai15" target="_blank">

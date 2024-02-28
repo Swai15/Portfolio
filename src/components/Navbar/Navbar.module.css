@@ -17,7 +17,9 @@
 
 .profileImage {
   margin-left: 30px;
+  visibility: hidden;
 }
+
 
 .themeIcon {
   margin-right: 30px;
@@ -48,7 +50,7 @@
 .links {
   color: var(--color-text);
   background-color: var(--navbar-background-links);
-  box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+  box-shadow: var(--navbar-links-bs);
   border-radius: 20px;
   padding: 8px;
   display: flex;
@@ -64,6 +66,12 @@
 
 .link {
   cursor: pointer;
+  color: var(--color-title);
+  /* font-weight: 550; */
+  transition: 0.2;
+}
+
+.link:hover {
   color: var(--project-imageContainer-background);
 }
 

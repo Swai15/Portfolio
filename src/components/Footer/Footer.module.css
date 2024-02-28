@@ -1,1 +1,11 @@
-@import "../../vars.css"
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vh;
+  margin-bottom: 10vh;
+  font-size: 13px;
+  color: var(--color-text);
+}

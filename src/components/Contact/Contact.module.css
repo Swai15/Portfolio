@@ -1,5 +1,9 @@
 @import "../../vars.css";
 
+:root {
+  --link-transitions: 0.2s;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -24,7 +28,7 @@
   width: 40vw;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 10px;
   gap: 7vw;
 }
 
@@ -35,9 +39,30 @@
 }
 
 .github {
-  height: 25px;
+  height: 30px;
+  transition: var(--link-transitions);
+}
+
+.github:hover {
+  transform: scale(1.1);
 }
 
 .linkedIn {
   height: 40px;
+  transition: var(--link-transitions);
+}
+
+.linkedIn:hover {
+  transform: scale(1.1);
+}
+
+
+.mail {
+  height: 30px;
+  transition: var(--link-transitions);
+}
+
+.mail:hover {
+  transform: scale(1.1);
+
 }

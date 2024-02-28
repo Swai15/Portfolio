@@ -6,7 +6,7 @@ export const Overview = ({ theme }) => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          Hi, I'm <span className={styles.name}>Swai.</span>
+          Hi, I'm <span className={styles.name}> Swai.</span>
         </h1>
         <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cum nihil excepturi illum dicta omnis totam, qui fuga aut ex!</p>
         <p className={styles.description}>
@@ -15,20 +15,8 @@ export const Overview = ({ theme }) => {
         </p>
       </div>
 
-      <div className={styles.links}>
-        <div className={styles.link}>
-          {theme === "light" ? (
-            <a href="https://github.com/Swai15" target="_blank">
-              <img className={styles.github} src="./Icons/github-light.png" alt="" />
-            </a>
-          ) : (
-            <a href="https://github.com/Swai15" target="_blank">
-              <img className={styles.github} src="./Icons/github-dark.png" alt="" />
-            </a>
-          )}
-        </div>
-
-        <div className={styles.link}>{theme === "light" ? <img className={styles.linkedIn} src="./Icons/linkedin-light.png" alt="" /> : <img className={styles.linkedIn} src="./Icons/linkedin-dark.png" alt="" />}</div>
+      <div className={styles.gifContainer}>
+        <img src="./images/coding01.gif" alt="" />
       </div>
     </section>
   );
