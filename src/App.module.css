@@ -3,7 +3,7 @@
 
 .AppContainer {
   background-color: var(--color-background-container);
-  height: 10000px;
+  /* height: ; */
   display: flex;
   justify-content: center;
 

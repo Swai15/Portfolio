@@ -17,10 +17,10 @@
  }
 
 
- .container:hover {
+ /* .container:hover {
    box-shadow: var(--project-box-shadow-hover);
 
- }
+ } */
 
  .container:hover .image img {
    border: var(--project-image-border);
@@ -40,22 +40,7 @@
 
  }
 
- .source {
-   text-decoration: none;
-   color: var(--color-text);
-   background: var(--project-source-background);
 
-   text-transform: capitalize;
-   font-size: 14px;
-   padding: 8px;
-   border-radius: 4px;
-   margin-right: 30px;
-   transition: 0.2s;
- }
-
- .source:hover {
-   background: var(--project-source-background-hover);
- }
 
  /* .title:hover {
    color: var(--skills-color);
@@ -90,7 +75,7 @@
  }
 
  .description {
-   color: var(--color-text);
+   color: var(--color-title);
  }
 
  /* .content {
@@ -111,7 +96,8 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   background: rgb(77, 126, 133);
+   background: var(--project-imageContainer-background);
+   /* background: var(--skills-background); */
    position: relative;
    z-index: 2;
  }
@@ -148,8 +134,9 @@
    padding: 15px;
    border-radius: 2px;
    /* border: 1px solid wheat; */
+   color: var(--color-title);
    margin: 0;
-   background: rgba(36, 36, 36, 0.527);
+   background: var(--project-content-background);
 
  }
 
@@ -163,16 +150,40 @@
  }
 
  .skill {
-   color: var(--skills-color);
+   color: var(--color-title);
+   font-weight: 600;
 
    list-style-type: none;
    /* border: 1px solid white; */
-   background: var(--skills-background);
+   background: var(--project-imageContainer-background);
    padding: 5px 12px 5px 12px;
    border-radius: 14px;
    font-size: 15px;
  }
 
+ .sourceContainer {
+   margin-top: 30px;
+   margin-bottom: 10px;
+   display: flex;
+ }
+
+ .source {
+   text-decoration: none;
+   color: var(--color-text);
+   background: var(--project-source-background);
+
+   text-transform: capitalize;
+   font-size: 14px;
+   padding: 8px;
+   border-radius: 4px;
+   margin-right: 30px;
+   box-shadow: var(--project-source-bs);
+   transition: 0.2s;
+ }
+
+ .source:hover {
+   background: var(--project-source-background-hover);
+ }
 
  @media screen and (max-width: 1024px) {
    .container {
@@ -211,6 +222,7 @@
  @media screen and (min-width: 1024px) {
    .contentContainer {
      font-size: 18px;
+     width: 65%;
    }
 
    .title {

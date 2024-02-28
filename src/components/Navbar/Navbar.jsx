@@ -32,8 +32,12 @@ const Navbar = ({ switchTheme, theme }) => {
         </div>
 
         <ul className={styles.links}>
-          <li className={styles.link}>Projects</li>
-          <li className={styles.link}>Experience</li>
+          <a href="#projects">
+            <li className={styles.link}>Projects</li>
+          </a>
+          <a href="#contact">
+            <li className={styles.link}>Contact</li>
+          </a>
         </ul>
 
         <div className={styles.themeIcon} onClick={() => switchTheme()}>

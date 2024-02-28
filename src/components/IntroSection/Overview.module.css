@@ -18,6 +18,10 @@
   margin-bottom: 30px;
 }
 
+.name {
+  color: var(--project-imageContainer-background);
+}
+
 .description {
   color: var(--color-text);
   margin-bottom: 20px;

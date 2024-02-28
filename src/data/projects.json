@@ -14,7 +14,8 @@
     "description": "An app to keep track of tasks with custom project folders and secure user account creation",
     "skills": ["React", "Django", "DRF", "Bootstrap"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://www.github.com",
+    "board": "https://www.example.com"
   },
   {
     "title": "Devfeel",
@@ -22,7 +23,8 @@
     "description": "A blog application that focuses on the human side of technology ",
     "skills": ["Django", "Javascript", "Css"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://www.github.com",
+    "board": "https://www.example.com"
   },
   {
     "title": "Devfeel",

@@ -24,7 +24,11 @@
   --project-container-borderBottom: 1px solid rgba(253, 253, 253, 0.027);
   --project-source-background: rgb(42, 49, 49);
   --project-source-background-hover: rgb(58, 70, 70);
+  --project-source-bs: 0.3px 2px 5px rgba(224, 224, 224, 0.185);
+
   --project-image-border: 1px solid rgba(255, 255, 255, 0.219);
+  --project-content-background: rgba(36, 36, 36, 0.527);
+  --project-imageContainer-background: rgba(135, 208, 218, 0.993);
 
   /* skills */
   --skills-background: rgb(42, 49, 49);
@@ -36,9 +40,9 @@
 [data-theme='light'] {
   --color-title: #27272a;
   --color-text: #575757;
-  --color-body-background: #faf9f9;
-  --color-background-container: #ffffff;
-  --color-background-container-bs: 0px 1px 0.5px rgb(17, 17, 17);
+  --color-body-background: #ffffff;
+  --color-background-container: #ffffffec;
+  --color-background-container-bs: 0px 1px 0.5px rgba(17, 17, 17, 0.596);
 
   /* navbar */
   --navbar-background-links: #f3f3f3;
@@ -53,9 +57,13 @@
   --project-box-shadow-hover: 0.4px 0.4px 3px black;
   --project-container-background-hover: #ffffff;
   --project-container-borderBottom: 1px solid rgba(63, 63, 63, 0.116);
-  --project-source-background: rgb(226, 226, 226);
-  --project-source-background-hover: rgb(207, 207, 207);
+  --project-source-background: #ffffff88;
+  --project-source-background-hover: #ffffffbb;
+  --project-source-bs: 0.3px 2px 5px rgba(0, 0, 0, 0.623);
+
   --project-image-border: 1px solid rgba(21, 77, 73, 0.836);
+  --project-content-background: #f3f3f3d3;
+  --project-imageContainer-background: #6c76ac;
 
 
   /* skills */

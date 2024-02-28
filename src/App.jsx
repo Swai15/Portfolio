@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import useLocalStorage from "use-local-storage";
 import { Overview } from "./components/IntroSection/Overview";
 import { Projects } from "./components/Projects/Projects";
+import { Contact } from "./components/Experience/Contact";
 
 function App() {
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -22,6 +23,7 @@ function App() {
         <div className={styles.content}>
           <Overview theme={theme} />
           <Projects theme={theme} />
+          <Contact theme={theme} />
         </div>
       </div>
     </div>

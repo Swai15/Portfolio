@@ -55,10 +55,16 @@
   list-style-type: none;
   justify-content: space-evenly;
   width: 200px;
+
+}
+
+.links a {
+  text-decoration: none;
 }
 
 .link {
   cursor: pointer;
+  color: var(--project-imageContainer-background);
 }
 
 .navbarVisible {
