@@ -32,3 +32,9 @@
   width: 80px;
   margin-bottom: 15vh;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 10vh;
+  }
+}

@@ -31,14 +31,14 @@ const Navbar = ({ switchTheme, theme }) => {
           <img className={styles.workingImage} src="./images/Working.png" alt="" />
         </div>
 
-        <ul className={styles.links}>
+        <div className={styles.links}>
           <a href="#projects">
             <li className={styles.link}>Projects</li>
           </a>
           <a href="#contact">
             <li className={styles.link}>Contact</li>
           </a>
-        </ul>
+        </div>
 
         <div className={styles.themeIcon} onClick={() => switchTheme()}>
           {theme === "light" ? <img className={styles.sunImage} src="./Icons/sun.png" alt="" /> : <img className={styles.moonImage} src="./Icons/moon.png" alt="" />}

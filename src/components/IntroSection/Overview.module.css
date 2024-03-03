@@ -22,7 +22,7 @@
   height: 200px;
   border-radius: 50%;
   margin-right: 2vw;
-  /* border: 1px solid black; */
+  /* border: 10px solid white; */
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -78,20 +78,39 @@
 @media screen and (max-width: 768px) {
   .container {
     flex-direction: column-reverse;
+    margin-top: vh;
 
   }
 
   .content .title {
-    margin-top: 10vh;
+    margin-top: 5vh;
     text-align: center;
   }
 
   .content {
     padding-left: 0px;
+    /* border: 1px solid white; */
+  }
+
+  .description {
+    text-align: center;
   }
 
   .gifContainer {
     margin-right: 0px;
   }
+
+}
+
+@media screen and (max-width: 420px) {
+  .content .title {
+    margin-top: 5vh;
+    text-align: center;
+  }
+
+  .container {
+    margin-top: 3vh;
+  }
+
 
 }

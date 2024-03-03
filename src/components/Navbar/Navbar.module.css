@@ -94,3 +94,37 @@
   height: 30px;
 
 }
+
+
+@media screen and (max-width: 420px) {
+  .navbar {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .links {
+    /* margin-right: 33vw; */
+    /* flex-direction: row; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12vw;
+  }
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .links {
+    margin-left: 7vw;
+
+  }
+}
