@@ -190,9 +190,15 @@
      border: 1px solid white;
    }
 
+   .image img {
+     margin-left: 5rem;
+     transform: translateX(15%);
+     transform: translateY(8%);
+   }
+
    .image img:hover {
      transform: translateY(9%);
-     margin-left: 8rem;
+     margin-left: 6rem;
    }
 
    .contentContainer {

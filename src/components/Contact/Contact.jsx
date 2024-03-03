@@ -33,11 +33,11 @@ export const Contact = ({ theme }) => {
 
         <div className={styles.link}>
           {theme === "light" ? (
-            <a href="https://www.linkedin.com/in/sylivans-swai-7b2470188/">
+            <a href="https://www.linkedin.com/in/sylivans-swai-7b2470188/" target="_blank">
               <img className={styles.linkedIn} src="./Icons/linkedin-light.png" alt="" />
             </a>
           ) : (
-            <a href="https://www.linkedin.com/in/sylivans-swai-7b2470188/">
+            <a href="https://www.linkedin.com/in/sylivans-swai-7b2470188/" target="_blank">
               <img className={styles.linkedIn} src="./Icons/linkedin-dark.png" alt="" />
             </a>
           )}

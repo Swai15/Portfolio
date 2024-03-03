@@ -43,7 +43,11 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
             )}
             <ul className={styles.skills}>
               {skills.map((skill, id) => {
-                return <li className={styles.skill}>{skill}</li>;
+                return (
+                  <li key={id} className={styles.skill}>
+                    {skill}
+                  </li>
+                );
               })}
             </ul>
 
