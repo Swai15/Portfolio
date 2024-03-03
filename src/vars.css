@@ -4,7 +4,6 @@
   --color-body-background: #18181B;
   --color-background-container: #000000;
   --color-background-container-bs: 0px 0px 1px rgb(230, 230, 230);
-  --navbar-background-links: #242429;
 
   /* fonts */
   --default-roboto: "Roboto";
@@ -23,7 +22,7 @@
   --project-box-shadow: 0px 0px 0px black;
   --project-box-shadow-hover: 0px 0px 0px black;
   --project-container-borderBottom: 1px solid rgba(253, 253, 253, 0.027);
-  --project-source-background: rgb(42, 49, 49);
+  --project-source-background: rgb(79, 87, 87);
   --project-source-background-hover: rgb(58, 70, 70);
   --project-source-bs: 0.3px 2px 5px rgba(224, 224, 224, 0.185);
 
@@ -41,9 +40,12 @@
 [data-theme='light'] {
   --color-title: #27272a;
   --color-text: #575757;
-  --color-body-background: #ffffff;
+  --color-body-background: #fafafa;
   --color-background-container: #ffffffec;
-  --color-background-container-bs: 0px 1px 0.5px rgba(17, 17, 17, 0.596);
+  --color-background-container-bs: 0px 1px 0.8px rgb(43, 43, 43);
+
+  /* fonts */
+  --default-roboto: "Roboto";
 
   /* navbar */
   --navbar-background-links: #ffffff;
@@ -60,11 +62,11 @@
   --project-container-background-hover: #ffffff;
   --project-container-borderBottom: 1px solid rgba(63, 63, 63, 0.116);
   --project-source-background: #ffffff88;
-  --project-source-background-hover: #ffffffbb;
+  --project-source-background-hover: #ffffff;
   --project-source-bs: 0.3px 2px 5px rgba(0, 0, 0, 0.623);
 
   --project-image-border: 1px solid rgba(21, 77, 73, 0.836);
-  --project-content-background: #f3f3f3f3;
+  --project-content-background: #f3f3f386;
   --project-imageContainer-background: #6c76ac;
 
 

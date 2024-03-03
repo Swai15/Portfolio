@@ -9,11 +9,11 @@ export const Contact = ({ theme }) => {
       <div className={styles.links}>
         <div>
           {theme === "light" ? (
-            <a href="mailto:swaisilvano5@gmail.com" target="_blank">
+            <a href="mailto:swaisilvano5@gmail.com">
               <img className={styles.mail} src="./Icons/mail-light.png" alt="" />
             </a>
           ) : (
-            <a href="mailto:swaisilvano5@gmail.com" target="_blank">
+            <a href="mailto:swaisilvano5@gmail.com">
               <img className={styles.mail} src="./Icons/mail-dark.png" alt="" />
             </a>
           )}

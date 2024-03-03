@@ -1,37 +1,37 @@
 [
   {
-    "title": "Sitechecker",
-    "imageSrc": "projects/project.png",
-    "description": "A command-line tool that allows you to monitor the availability and status of websites.",
-    "skills": ["Golang"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Devfeel",
+    "imageSrc": "./images/Devfeel.png",
+    "description": "A blog application that focuses on the human side of technology.",
+    "skills": ["Django", "Javascript", "Ajax", "Css"],
+    "demo": "https://devfeel.vercel.app",
+    "source": "https://github.com/Swai15/Devfeel",
+    "board": "https://trello.com/b/yyQSPjNm/devfeel-blog"
   },
-
   {
     "title": "Task Manager",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "./images/taskManager.png",
     "description": "An app to keep track of tasks with custom project folders and secure user account creation",
-    "skills": ["React", "Django", "DRF", "Bootstrap"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com",
-    "board": "https://www.example.com"
+    "skills": ["React", "Django", "DRF", "Bootstrap", "HTML & CSS"],
+    "demo": "https://tasktrackfs.netlify.app",
+    "source": "https://github.com/Swai15/Task-Manager-Backend",
+    "board": "https://trello.com/b/9X0ipFzH/task-manager"
   },
   {
-    "title": "Devfeel",
-    "imageSrc": "projects/project.png",
-    "description": "A blog application that focuses on the human side of technology ",
-    "skills": ["Django", "Javascript", "Css"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com",
-    "board": "https://www.example.com"
+    "title": "Sitechecker",
+    "imageSrc": "./images/Sitechecker.png",
+    "description": "A command-line tool that allows you to monitor the availability and status of websites.",
+    "skills": ["Golang"],
+    "demo": "https://github.com/Swai15/sitechecker",
+    "source": "https://github.com/Swai15/sitechecker",
+    "board": "https://trello.com/b/B7FRVUEd/sitechecker-cli"
   },
   {
-    "title": "Devfeel",
-    "imageSrc": "projects/project.png",
-    "description": "A blog application that focuses on the human side of technology An app to keep track of tasks with custom project folders and secure user account creationAn app to keep track of tasks with custom project folders and secure user account creation",
-    "skills": ["Django", "Javascript", "Css", "Cloudinary", "Postgres"],
+    "title": "Portfolio",
+    "imageSrc": "./images/Portfolio.png",
+    "description": "A responsive website that generates dynamic components from JSON data.",
+    "skills": ["React", "HTML", "Css modules"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Swai15/Portfolio"
   }
 ]

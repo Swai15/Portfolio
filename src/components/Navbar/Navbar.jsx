@@ -8,7 +8,7 @@ const Navbar = ({ switchTheme, theme }) => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
-      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setVisible(currentScrollPos < 10 || prevScrollPos > currentScrollPos || currentScrollPos < 10);
       setPrevScrollPos(currentScrollPos);
       console.log("Navbar visibility set to:", visible ? "visible" : "hidden");
     };

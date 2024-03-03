@@ -18,6 +18,7 @@ html {
   width: 91%;
   background: var(--color-body-background);
   box-shadow: var(--color-background-container-bs);
+
   max-width: 1200px;
 }
 

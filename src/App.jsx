@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./App.module.css";
 import Navbar from "./components/Navbar/Navbar";
 import useLocalStorage from "use-local-storage";
