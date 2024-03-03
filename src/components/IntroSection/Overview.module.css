@@ -10,8 +10,9 @@
 }
 
 .content {
-  /* border: 1px solid wheat; */
+  padding-left: 3vw;
 }
+
 
 .gifContainer {
   display: flex;
@@ -20,6 +21,7 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  margin-right: 2vw;
   /* border: 1px solid black; */
   overflow: hidden;
   flex-shrink: 0;
@@ -44,11 +46,10 @@
   color: var(--color-text);
   margin-bottom: 20px;
   word-spacing: 1.2px;
-  font-size: 17px;
+  font-size: 19px;
   max-width: 600px;
   display: flex;
   justify-content: center;
-  /* border: 1px solid wheat; */
 
 }
 
@@ -80,9 +81,17 @@
 
   }
 
-  .title {
+  .content .title {
     margin-top: 10vh;
     text-align: center;
+  }
+
+  .content {
+    padding-left: 0px;
+  }
+
+  .gifContainer {
+    margin-right: 0px;
   }
 
 }
