@@ -17,7 +17,7 @@
     "description": "An app to keep track of tasks with custom project folders and secure user account creation",
     "username": "demo",
     "password": "demo123",
-    "skills": ["React", "Django", "DRF", "Bootstrap", "HTML & CSS"],
+    "skills": ["React", "Django", "DRF", "Bootstrap", "Postman", "HTML & CSS"],
     "demo": "https://tasktrackfs.netlify.app",
     "source": "https://github.com/Swai15/Task-Manager-Backend",
     "board": "https://trello.com/b/9X0ipFzH/task-manager"
