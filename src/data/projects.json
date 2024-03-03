@@ -36,7 +36,7 @@
     "imageSrc": "./images/Portfolio.webp",
     "description": "A responsive website that generates dynamic components from JSON data.",
     "skills": ["React", "HTML", "Css modules"],
-    "demo": "https://www.example.com",
-    "source": "https://github.com/Swai15/Portfolio"
+    "demo": "",
+    "source": ""
   }
 ]
