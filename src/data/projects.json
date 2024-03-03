@@ -3,7 +3,10 @@
     "title": "Devfeel",
     "imageSrc": "./images/Devfeel.webp",
     "description": "A blog application that focuses on the human side of technology.",
+    "email": "demoaccount@gmail.com",
+    "password": "demopass",
     "skills": ["Django", "Javascript", "Ajax", "Css"],
+
     "demo": "https://devfeel.vercel.app",
     "source": "https://github.com/Swai15/Devfeel",
     "board": "https://trello.com/b/yyQSPjNm/devfeel-blog"
@@ -12,6 +15,8 @@
     "title": "Task Manager",
     "imageSrc": "./images/taskManager.webp",
     "description": "An app to keep track of tasks with custom project folders and secure user account creation",
+    "username": "demo",
+    "password": "demo123",
     "skills": ["React", "Django", "DRF", "Bootstrap", "HTML & CSS"],
     "demo": "https://tasktrackfs.netlify.app",
     "source": "https://github.com/Swai15/Task-Manager-Backend",

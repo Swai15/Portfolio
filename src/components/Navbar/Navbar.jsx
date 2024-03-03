@@ -10,7 +10,7 @@ const Navbar = ({ switchTheme, theme }) => {
       const currentScrollPos = window.scrollY;
       setVisible(currentScrollPos < 10 || prevScrollPos > currentScrollPos || currentScrollPos < 10);
       setPrevScrollPos(currentScrollPos);
-      console.log("Navbar visibility set to:", visible ? "visible" : "hidden");
+      // console.log("Navbar visibility set to:", visible ? "visible" : "hidden");
     };
     window.addEventListener("scroll", handleScroll);
 
@@ -21,7 +21,7 @@ const Navbar = ({ switchTheme, theme }) => {
 
   const toggleDarkMode = () => {
     const isDarkMode = document.documentElement.classList.toggle("dark");
-    console.log("Dark mode toggled:", isDarkMode ? "enabled" : "disabled");
+    // console.log("Dark mode toggled:", isDarkMode ? "enabled" : "disabled");
   };
 
   return (

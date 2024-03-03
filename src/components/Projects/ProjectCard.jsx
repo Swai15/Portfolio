@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
 
-export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source, board }, theme }) => {
+export const ProjectCard = ({ project: { title, imageSrc, description, skills, demo, source, board, email, username, password }, theme }) => {
   return (
     <div className={styles.container}>
       <div className={styles.imageContainer}>
@@ -24,6 +24,23 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, d
           </div>
           <div className={styles.details}>
             <p className={styles.description}>{description}</p>
+            {password && (
+              <div className={styles.credentials}>
+                {email && (
+                  <p className={styles.credential}>
+                    <strong>Email</strong>: {email}
+                  </p>
+                )}
+                {username && (
+                  <p className={styles.credential}>
+                    <strong>Username</strong>: {username}
+                  </p>
+                )}
+                <p className={styles.credential}>
+                  <strong>Password</strong>: {password}
+                </p>
+              </div>
+            )}
             <ul className={styles.skills}>
               {skills.map((skill, id) => {
                 return <li className={styles.skill}>{skill}</li>;
