@@ -1,7 +1,7 @@
 [
   {
     "title": "Devfeel",
-    "imageSrc": "./images/Devfeel.png",
+    "imageSrc": "./images/Devfeel.webp",
     "description": "A blog application that focuses on the human side of technology.",
     "skills": ["Django", "Javascript", "Ajax", "Css"],
     "demo": "https://devfeel.vercel.app",
@@ -10,7 +10,7 @@
   },
   {
     "title": "Task Manager",
-    "imageSrc": "./images/taskManager.png",
+    "imageSrc": "./images/taskManager.webp",
     "description": "An app to keep track of tasks with custom project folders and secure user account creation",
     "skills": ["React", "Django", "DRF", "Bootstrap", "HTML & CSS"],
     "demo": "https://tasktrackfs.netlify.app",
@@ -19,7 +19,7 @@
   },
   {
     "title": "Sitechecker",
-    "imageSrc": "./images/Sitechecker.png",
+    "imageSrc": "./images/Sitechecker.webp",
     "description": "A command-line tool that allows you to monitor the availability and status of websites.",
     "skills": ["Golang"],
     "demo": "https://github.com/Swai15/sitechecker",
@@ -28,7 +28,7 @@
   },
   {
     "title": "Portfolio",
-    "imageSrc": "./images/Portfolio.png",
+    "imageSrc": "./images/Portfolio.webp",
     "description": "A responsive website that generates dynamic components from JSON data.",
     "skills": ["React", "HTML", "Css modules"],
     "demo": "https://www.example.com",
