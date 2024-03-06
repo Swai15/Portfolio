@@ -6,7 +6,8 @@
   --color-background-container-bs: 0px 0px 1px rgb(230, 230, 230);
 
   /* fonts */
-  --default-roboto: "Roboto";
+  /* --default-roboto: "Roboto"; */
+  --default-font: "Roboto";
 
   /* navbar */
   --navbar-background-links: #292929;
