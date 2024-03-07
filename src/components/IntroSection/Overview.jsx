@@ -8,9 +8,9 @@ export const Overview = ({ theme }) => {
         <h1 className={styles.title}>
           Hey, I'm <span className={styles.name}> Swai.</span>
         </h1>
-        <p className={styles.description}>A self-taught developer deeply commited to continuous learning and growth.</p>
+        <p className={styles.description}>A self-taught developer deeply committed to continuous learning and growth.</p>
 
-        <p className={styles.description}>In my free time I'm currently picking up some cs concepts along Vue.js for future projects. I'm open to collaborating and contributing to django and react projects.</p>
+        <p className={styles.description}>In my free time I'm currently picking up some cs concepts along with Vue.js for future projects. I'm open to collaborating and contributing to django and react projects.</p>
       </div>
 
       <div className={styles.gifContainer}>
